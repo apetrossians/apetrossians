@@ -1,0 +1,515 @@
+.background {
+  width: 100%;
+  background-color: #2d7d61;
+  transition: 0.8s;
+  user-select: none;
+}
+
+.headBox {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.headBox .header {
+  width: 75%;
+  height: 50%;
+  display: flex;
+  background-color: #2d7d61;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+}
+
+.themeColor {
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 22;
+}
+
+.colorDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.Color {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Color h1 {
+  margin-top: 200px;
+}
+
+.toggles {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.dark,
+.light,
+.colorTheme {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: #000;
+  background-color: #2d7d61;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 50%;
+  border: none;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 45%);
+}
+
+.language {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: #000;
+  background-color: #2d7d61;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 50%;
+  border: none;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 45%);
+  outline: none;
+}
+
+li {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: #000;
+  background-color: #2d7d61;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 50%;
+  border: none;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 45%);
+  outline: none;
+}
+
+ul {
+  width: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.colorTheme ion-icon:first-child {
+  font-size: 32px;
+}
+
+.colorBox {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #2d7d61;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+}
+
+.colorBox2 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #2d7d61;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+}
+
+.colorBox div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.colorTheme {
+  animation: rotateTheme 4s linear infinite;
+}
+
+@keyframes rotateTheme {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.headBox .header a {
+  width: 130px;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 22px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headBox .header a ion-icon {
+  margin-left: 2px;
+}
+
+.headBox .header .active {
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.headBox .header a:hover {
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.Home {
+  width: 100%;
+  height: 789px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.Home .contaniner {
+  width: 80%;
+  height: 70%;
+  background-color: #2d7d61;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  margin-top: 110px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+}
+
+.Home .contaniner h1 {
+  height: 40px;
+}
+
+.Home .contaniner h1:nth-child(2) {
+  margin-left: 30px;
+}
+
+.themeColor .colorDiv .Color .colorBox .active1,
+.themeColor .colorDiv .Color .colorBox .active2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.themeColor .colorDiv .Color .colorBox .active1 i,
+.themeColor .colorDiv .Color .colorBox .active2 i {
+  font-size: 42px;
+  position: relative;
+  color: #000;
+}
+
+.Home .contaniner .box1 {
+  width: 50%;
+  height: 100%;
+}
+
+.Home .contaniner .box1 .div1 h1 p {
+  margin-left: 10px;
+}
+
+.Home .contaniner .box2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home .contaniner .box2 .div1 {
+  width: 60%;
+  height: 80%;
+  border-radius: 20px;
+  border: 8px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.Home .contaniner .box2 .div1 img {
+  width: 240px;
+  height: 290px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.Home .contaniner .box1 .div2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.Home .contaniner .box1 h1 {
+  font-size: 40px;
+}
+
+.Home .contaniner .box1 .info {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Home .contaniner .box1 .info p {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 98px;
+}
+
+.Home .contaniner .box1 .aboutmore {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home .contaniner .box1 .aboutmore a {
+  width: 220px;
+  height: 45px;
+  background: #000;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.sidebar {
+  display: none;
+}
+.overlay {
+  display: none;
+}
+
+@media only screen and (max-width: 1220px) {
+  .sidebar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #2d7d61;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay {
+    display: block;
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    background-color: #2d7d61;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.2s;
+  }
+
+  .overlay-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    transition: 0.4s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #000;
+  }
+
+  .overlay ion-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 60px;
+  }
+
+  .dark,
+  .light,
+  .colorTheme,
+  .language {
+    width: 60px;
+    height: 60px;
+  }
+
+  .headBox .header {
+    display: none;
+  }
+
+  .Home {
+    height: 1400px;
+  }
+
+  .Home .contaniner {
+    height: 75%;
+  }
+
+  .Home .contaniner .box1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .Home .contaniner .box2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home .contaniner .box2 .div1 {
+    width: 80%;
+    height: 80%;
+  }
+
+  .Home .contaniner .box2 .div1 img {
+    width: 55%;
+    height: 80%;
+  }
+
+  .Home .contaniner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home .contaniner .box1 .div1 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home .contaniner .box1 .div2 {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home .contaniner .box1 .div2 h1 {
+    width: 70%;
+    margin-bottom: -15px;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home .contaniner .box1 .div2 h1 .title {
+    font-size: 4vw;
+  }
+
+  .Home .contaniner .box1 .div1 h1 {
+    width: 100%;
+    height: 20%;
+    font-size: 4vw;
+    display: flex;
+  }
+
+  .Home .contaniner .box1 .div1 h1 p {
+    margin-top: 4vw;
+    margin-left: 10px;
+    font-size: 4vw;
+  }
+
+  .Home .contaniner .box1 .pinfo {
+    width: 100%;
+    margin-left: -55px;
+    margin-top: 50px;
+  }
+  .Home .contaniner .box1 .pinfo .info {
+    width: 100%;
+  }
+
+  .Home .contaniner .box1 .aboutmore {
+    width: 110%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home .contaniner .box1 .aboutmore a {
+    width: 80%;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Loading": "Загрузка",
+  "names": [
+    {
+      "icon": "home",
+      "name": "Главная",
+      "name1": "Home"
+    },
+    {
+      "icon": "person",
+      "name": "О мне",
+      "name1": "About"
+    },
+    {
+      "icon": "chatbubble",
+      "name": "Контакты",
+      "name1": "Contact"
+    }
+  ],
+  "More About Me": "Больше о мне",
+  "Hello, my name is": "Привет, меня зовут",
+  "I`am a Web Developer for over 1": "Я разработчик веб-сайтов с опытом работы над 1 год,",
+  "year, My expertise is to create Website Design": "мой опыт - это создать дизайн сайта",
+  "About Me": "О мне",
+  "I`am Aram Petrosyan and": "Я Арам Петросян и",
+  "Web Developer": "Веб-разработчик",
+  "Birthday": "Д. рождения",
+  "December": "Декабрь",
+  "Age": "Возраст",
+  "Website": "Сайт",
+  "Email": "Эл. почта",
+  "City": "Город",
+  "Phone": "Телефон",
+  "Download": "Скачать",
+  "I`m in touch": "Я на связи",
+  "I`am at your service": "Я к вашим услугам",
+  "Have you any Questions?": "У вас есть вопросы?",
+  "I`am Frontend Developer": "Я Фронтенд Разработчик",
+  "Themes Colors": "Темы Цвета",
+  "Box Colors": "Цвета"
+}

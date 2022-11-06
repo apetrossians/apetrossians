@@ -1,0 +1,41 @@
+{
+  "Loading": "Loading",
+  "names": [
+    {
+      "icon": "home",
+      "name": "Home",
+      "name1": "Home"
+    },
+    {
+      "icon": "person",
+      "name": "About",
+      "name1": "About"
+    },
+    {
+      "icon": "chatbubble",
+      "name": "Contact",
+      "name1": "Contact"
+    }
+  ],
+  "More About Me": "More About Me",
+  "Hello, my name is": "Hello, my name is",
+  "I`am a Web Developer for over 1": "I`am a Web Developer for over 1 year,",
+  "year, My expertise is to create Website Design": "My expertise is to create and Website Design",
+  "About Me": "About Me",
+  "I`am Aram Petrosyan and": "I`am Aram Petrosyan and",
+  "Web Developer": "Web Developer",
+  "Birthday": "Birthday",
+  "December": "December",
+  "Age": "Age",
+  "Website": "Website",
+  "Email": "Email",
+  "City": "City",
+  "Phone": "Phone",
+  "Download": "Download",
+  "I`m in touch": "I`m in touch",
+  "I`am at your service": "I`am at your service",
+  "Have you any Questions?": "Have you any Questions?",
+  "I`am Frontend Developer": "I`am Frontend Developer",
+  "Themes Colors": "Themes Colors",
+  "Box Colors": "Box Colors"
+}

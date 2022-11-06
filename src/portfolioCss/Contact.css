@@ -1,0 +1,139 @@
+.Contact {
+  width: 100%;
+  height: 789px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact .Contactinfo {
+  width: 80%;
+  height: 74%;
+  background-color: #2D7D61;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  margin-top: 110px;
+  color: #fff;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+}
+
+.Contact .Contactinfo .box1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact .Contactinfo .box1 p {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Contact .Contactinfo .item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Contact .Contactinfo .item div {
+  width: 32%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact .Contactinfo .item div i {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.Contact .Contactinfo .item div p {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.Contact .Contactinfo .item div a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+}
+.Contact .Contactinfo .item div a i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Contact {
+    width: 100%;
+    height: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contact .Contactinfo {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 20px;
+    color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.23);
+  }
+
+  .Contact .Contactinfo .item {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .Contact .Contactinfo .item div {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+  }
+
+  .Contact .Contactinfo .item div:nth-child(4) {
+    margin-top: -60px;
+  }
+
+  .Contact .Contactinfo .item div:nth-child(5) {
+    margin-top: -90px;
+  }
+
+  .Contact .Contactinfo .item div:nth-child(6) {
+    margin-top: -90px;
+  }
+
+  .Contact .Contactinfo .box1 h1 {
+    font-size: 24px;
+  }
+}
